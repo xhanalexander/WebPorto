@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shape {
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   z-index: -1;
+}
+
+.shape svg {
+   position: relative;
+   display: block;
+   width: calc(115% + 1.3px);
+   height: 167px;
+   z-index: -1
+}
+
+.mobile {
+   @apply flex w-screen h-full justify-center;
+   margin-top: auto;
+   margin-bottom: auto;
+   position: fixed;
+}
