@@ -13,11 +13,11 @@ export default function Navbar() {
             <button className="md:hidden flex transition" type="button" onClick={()=>setstate(!show)}>
                {
                   show?
-                  <nav className="md:hidden mobile block transition inset-0 backdrop-filter backdrop-blur bg-black bg-opacity-75">
+                  <nav className="md:hidden mobile block transition inset-0 backdrop-filter backdrop-blur bg-black bg-opacity-75 z-10">
                      <nav className="submenu flex flex-col text-center inset-0">
-                        <Link to="/" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">Portfolio </Link>
-                        <Link to="/" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">About </Link>
-                        <Link to="/" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">Contact </Link>
+                        <Link to="../portfolio" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">Portfolio </Link>
+                        <Link to="../about" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">About </Link>
+                        <Link to="../contact" className="transition duration-300 text-3xl text-white leading-loose hover:text-green-400 ">Contact </Link>
                      </nav>
                   </nav>:null
                }
