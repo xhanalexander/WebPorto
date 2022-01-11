@@ -8,7 +8,7 @@ export default function Navbar() {
    return (
       <div>
          <header className="flex justify-between">
-            <Link to="/" className="md:text-3xl flex text-2xl text-white md:text-left text-center font-semibold font-title" title="home"> {name}</Link>
+            <Link to="../work" className="md:text-3xl flex text-2xl text-white md:text-left text-center font-semibold font-title" title="home"> {name}</Link>
 
             <button className="md:hidden flex transition" type="button" onClick={()=>setstate(!show)}>
                {

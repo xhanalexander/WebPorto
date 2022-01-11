@@ -29,6 +29,21 @@
    position: fixed;
 }
 
+::-webkit-scrollbar {
+   width: 4px;
+   border-radius: 10px;
+   overflow: auto;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #34d399;
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: none; 
+ }
+
 /* ================ */
 
 /* .navbar {

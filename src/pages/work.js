@@ -24,6 +24,13 @@ export default function home() {
                      recusandae tempore magnam itaque dicta. Quos?
                   </p>
                   <br />
+                  <p className="block text-xl text-justify max-w-prose">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Assumenda impedit officia aliquam nulla voluptatum, sint,
+                     tempora culpa voluptatem ipsa nemo aliquid illo amet unde
+                     recusandae tempore magnam itaque dicta. Quos?
+                  </p>
+                  <br />
                </article>
                <article className="right block text-white md:w-2/5 w-none">
                   <p className="text-xl block text-justify max-w-prose">

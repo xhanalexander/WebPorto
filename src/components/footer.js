@@ -4,11 +4,11 @@ export default function footer() {
    return (
       <div>
          <footer className="flex flex-col my-3 m-auto">
-            <div className="">
-               <h1 className="text-white text-center leading-8 text-xl">this is footer</h1>
+            <div className="text-white text-center leading-8 text-xl">
+               this is footer
             </div>
-            <div className=''>
-               <h1 className='text-xl text-center text-white leading-5'>this is second footer</h1>
+            <div className='text-sm text-center text-gray-50 text-opacity-60 leading-5'>
+               © 2022 Alexander Achmad Khan.
             </div>
 
          </footer>

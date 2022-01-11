@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/footer'
 import Navbar from "../../components/Navbar"
 import Wave from "../../components/wave"
 
@@ -17,6 +18,7 @@ export default function index() {
                <h1 className="text-white text-4xl text-center">this is portfolio </h1>
             </div>
          </div>
+         <Footer/>
       </div>
    )
 }
