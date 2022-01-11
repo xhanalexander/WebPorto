@@ -19,20 +19,22 @@ export default function index() {
                   src="../../images/me.jpg" 
                   alt="profile picture"
                   placeholder="dominantColor"
-                  className='transform -translate-y-8 -translate-x-8'
+                  className='transform -translate-y-8 -translate-x-8 rounded-lg'
                   title="wassup"
                />
             </div>
-            
 
             <section className="flex flex-col justify-between mt-20">
-
                <article className="content-about text-white pattern-checks-sm bg-blue white">
-                  <h1 className="text-4xl text-white font-semibold pb-5 leading-10 flex flex-row">Hi I'm Alexander</h1>
+                  <h1 className="text-4xl text-white font-semibold pb-5 leading-10 flex flex-row">Hi my name is<span className="text-green-400 space-x-1">&nbsp;Alexander</span>.</h1>
                   <p className="block text-xl text-justify leading-6">
-                     Some freelance ongoing college students major in computer science, currently live in
+                     Some freelance and ongoing college students major in computer science, currently live in
                      <a href='https://en.wikipedia.org/wiki/Jakarta'> Jakarta</a>, passionate at Digital Design, UI, and Video Editor.
-                     since junior highschool I'm interested designing so I often take part in poster competition and win
+                     since junior highschool I'm interested designing so I often take part in poster competition. Currently this period
+                     I'm freelance on wedding videography with a help of my friends. I spend time creating visual through code with
+                     <a href="https://p5js.org/" target="_blank" className="text-green-400">&nbsp;p5Js</a> javascript framework and 
+                     <a href='https://openframeworks.cc/about/' target="_blank" className="text-green-400"> Openframeworks&nbsp;</a> 
+                     a C++ framework for creative coding.
                   </p>
                   <br />
                   <p className="block text-xl text-justify leading-6">
