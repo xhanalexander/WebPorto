@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "../../components/Navbar"
 import Wave from "../../components/wave"
+import Footer from '../../components/footer'
 
 export default function index() {
    return (
@@ -14,7 +15,7 @@ export default function index() {
             </nav>
             <h1 className="text-white text-4xl text-center">contact </h1>
          </div>
-         
+         <Footer/>
       </div>
    )
 }

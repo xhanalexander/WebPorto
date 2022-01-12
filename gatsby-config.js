@@ -5,7 +5,7 @@ module.exports = {
          name: `Alexander khan`,
          summary: `who lives and works in San Francisco building useful things.`,
       },
-      description: `A starter blog demonstrating what Gatsby can do.`,
+      description: `A Personal website art portfolio.`,
       siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
       social: {
          twitter: `xhanalexander`,
