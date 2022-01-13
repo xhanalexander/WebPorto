@@ -4,6 +4,7 @@ import Wave from "../../components/wave"
 import Footer from "../../components/footer"
 import { StaticImage } from 'gatsby-plugin-image'
 import myResume from "../../../public/Resume.pdf"
+import Seo from '../../components/seo'
 
 export default function index() {
    return (
@@ -11,6 +12,7 @@ export default function index() {
          <Wave />
          <div className="md:max-w-3xl max-w-lg m-auto">
             <nav className="mt-32 mb-16">
+               <Seo title='About'/>
                <Navbar />
                <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary idea.</p>
                <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>

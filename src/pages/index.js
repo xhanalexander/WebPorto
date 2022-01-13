@@ -1,90 +1,53 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
-import Layout from "../components/layout"
+/* import { StaticImage } from "gatsby-plugin-image" */
+import Navbar from "../components/Navbar"
+import Wave from "../components/wave"
+import Footer from "../components/footer"
 import Seo from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
-	const siteTitle = data.site.siteMetadata?.title || `Title`
-	const posts = data.allMarkdownRemark.nodes
+export default function home() {
+   return (
+      <div className="md:m-0 mx-10">
+         <Wave />
+         <div className="md:max-w-3xl max-w-lg m-auto">
+            <nav className="mt-32 mb-16">
+               <Seo title="Home" description="this is my web"/>
+               <Navbar />
+               <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary idea.</p>
+               <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>
+            </nav>
 
-	if (posts.length === 0) {
-		return (
-			<Layout location={location} title={siteTitle}>
-				<Seo title="All posts" />
-				<Bio />
-				<p>
-					No blog posts found. Add markdown posts to "content/blog" (or the
-					directory you specified for the "gatsby-source-filesystem" plugin in
-					gatsby-config.js).
-				</p>
-			</Layout>
-		)
-	}
+            <section className="flex md:flex-row flex-col justify-between">
+               <article className="left text-white md:w-2/5 w-none">
+                  <p className="block text-xl text-justify max-w-prose">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Assumenda impedit officia aliquam nulla voluptatum, sint,
+                     tempora culpa voluptatem ipsa nemo aliquid illo amet unde
+                     recusandae tempore magnam itaque dicta. Quos?
+                  </p>
+                  <br />
+                  <p className="block text-xl text-justify max-w-prose">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Assumenda impedit officia aliquam nulla voluptatum, sint,
+                     tempora culpa voluptatem ipsa nemo aliquid illo amet unde
+                     recusandae tempore magnam itaque dicta. Quos?
+                  </p>
+                  <br />
+               </article>
+               <article className="right block text-white md:w-2/5 w-none">
+                  <p className="text-xl block text-justify max-w-prose">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Assumenda impedit officia aliquam nulla voluptatum, sint,
+                     tempora culpa voluptatem ipsa nemo aliquid illo amet unde
+                     recusandae tempore magnam itaque dicta. Quos?
+                  </p>
+               </article>
+            </section>
+         </div>
+         <Footer/>
 
-	return (
-		<Layout location={location} title={siteTitle}>
-			<Seo title="All posts" />
-			<Bio />
-			<ol style={{ listStyle: `none` }}>
-				{posts.map(post => {
-					const title = post.frontmatter.title || post.fields.slug
+      </div>
 
-					return (
-						<li key={post.fields.slug}>
-							<article
-								className="post-list-item"
-								itemScope
-								itemType="http://schema.org/Article"
-							>
-								<header>
-									<h2>
-										<Link to={post.fields.slug} itemProp="url">
-											<span itemProp="headline">{title}</span>
-										</Link>
-									</h2>
-									<small>{post.frontmatter.date}</small>
-								</header>
-								<section>
-									<p
-										dangerouslySetInnerHTML={{
-											__html: post.frontmatter.description || post.excerpt,
-										}}
-										itemProp="description"
-									/>
-								</section>
-							</article>
-						</li>
-					)
-				})}
-			</ol>
-		</Layout>
-      
-	)
+   )
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
-      }
-    }
-  }
-`

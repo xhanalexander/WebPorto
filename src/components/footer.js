@@ -8,25 +8,25 @@ export default function footer() {
       <div>
          <footer className="flex flex-col my-14 p-0 m-auto">
             <div className="text-white text-center leading-8 text-xl mb-6">
-               <a href="https://www.facebook.com/xhan.alexander/" target="_blank" title="Facebook">
+               <a href="https://www.facebook.com/xhan.alexander/" target="_blank" rel="noreferrer" title="Facebook">
                   <FontAwesomeIcon icon={faFacebook} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://twitter.com/xhanalexander" target="_blank" title="Twitter">
+               <a href="https://twitter.com/xhanalexander" target="_blank" rel="noreferrer" title="Twitter">
                   <FontAwesomeIcon icon={faTwitter} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://github.com/xhanalexander" target="_blank" title="Github">
+               <a href="https://github.com/xhanalexander" target="_blank" rel="noreferrer" title="Github">
                   <FontAwesomeIcon icon={faGithub} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://xhanalexander.tumblr.com/" target="_blank" title="Tumblr">
+               <a href="https://xhanalexander.tumblr.com/" target="_blank" rel="noreferrer" title="Tumblr">
                   <FontAwesomeIcon icon={faTumblr} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://www.instagram.com/xhanalexander" target="_blank" title="Instagram">
+               <a href="https://www.instagram.com/xhanalexander" target="_blank" rel="noreferrer" title="Instagram">
                   <FontAwesomeIcon icon={faInstagram} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://codepen.io/Xhanalexander" target="_blank" title="Codepen">
+               <a href="https://codepen.io/Xhanalexander" target="_blank" rel="noreferrer" title="Codepen">
                   <FontAwesomeIcon icon={faCodepen} className="fa-lg mx-2 transition-all hover:text-green-400"/>
                </a>
-               <a href="mailto:xhanalexander@gmail.com" target="_blank" title="E-mail">
+               <a href="mailto:xhanalexander@gmail.com" target="_blank" rel="noreferrer" title="E-mail">
                   <FontAwesomeIcon icon={faEnvelope} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
 
