@@ -27,9 +27,9 @@ export default function Navbar() {
             </button>
 
             <div className="md:flex hidden ">
-               <Link to="/" className="md:text-lg text-xl text-white font-title uppercase pr-9 text-opacity-75 hover:text-opacity-100" title="Home" activeClassName='text-green-400 text-opacity-100'>Home</Link>
-               <Link to="../portfolio" className="md:text-lg text-xl text-white font-title pr-9 uppercase text-opacity-75 hover:text-opacity-100" title="Portfolio" activeClassName='text-green-400 text-opacity-100'>Portfolio</Link>
-               <Link to="../about" className="md:text-lg text-xl text-white font-title uppercase text-opacity-75 hover:text-opacity-100" title="About" activeClassName='text-green-400 text-opacity-100'>About</Link>
+               <Link to="/" className="md:text-lg text-xl text-white font-title uppercase pr-9 text-opacity-100 hover:text-opacity-75" title="Home" activeClassName='text-green-400 text-opacity-100'>Home</Link>
+               <Link to="../portfolio" className="md:text-lg text-xl text-white font-title pr-9 uppercase text-opacity-100 hover:text-opacity-75" title="Portfolio" activeClassName='text-green-400 text-opacity-100'>Portfolio</Link>
+               <Link to="../about" className="md:text-lg text-xl text-white font-title uppercase text-opacity-100 hover:text-opacity-75" title="About" activeClassName='text-green-400 text-opacity-100'>About</Link>
             </div>
 
          </header>

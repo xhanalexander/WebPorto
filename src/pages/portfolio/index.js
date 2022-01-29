@@ -18,6 +18,7 @@ export default function index() {
 
             <div className="">
                <h1 className="text-white text-4xl text-center">this is portfolio </h1>
+               
             </div>
          </div>
          <Footer/>
