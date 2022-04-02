@@ -1,23 +1,14 @@
 import React from 'react'
-import Navbar from "../../components/Navbar"
-import Wave from "../../components/wave"
-import Footer from "../../components/footer"
 import { StaticImage } from 'gatsby-plugin-image'
 import myResume from "../../../public/Resume.pdf"
 import Seo from '../../components/seo'
+import Layout from '../../components/layout'
 
 export default function index() {
    return (
-      <div className="md:m-0 mx-10">
-         <Wave />
-         <div className="md:max-w-3xl max-w-lg m-auto">
-            <nav className="mt-32 mb-16">
-               <Seo title='About' description="About bakcground history"/>
-               <Navbar />
-               <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary idea.</p>
-               <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>
-            </nav>
-            <div className="pattern-dots-lg transform translate-y-8 translate-x-8">
+      <Layout>
+         <Seo title="About" />
+         <div className="pattern-dots-lg transform translate-y-8 translate-x-8">
                <StaticImage 
                   src="../../images/me.jpg" 
                   alt="profile picture"
@@ -59,10 +50,6 @@ export default function index() {
                   </button>
                </a>
             </section>
-
-         </div>
-         <Footer/>
-         
-      </div>
+      </Layout>
    )
 }

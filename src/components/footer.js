@@ -23,17 +23,17 @@ export default function footer() {
                <a href="https://www.instagram.com/xhanalexander" target="_blank" rel="noreferrer" title="Instagram">
                   <FontAwesomeIcon icon={faInstagram} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
+
+               {/* =============== Alternate Account ===============  */}
+
+               {/* 
+               
                <a href="https://codepen.io/Xhanalexander" target="_blank" rel="noreferrer" title="Codepen">
                   <FontAwesomeIcon icon={faCodepen} className="fa-lg mx-2 transition-all hover:text-green-400"/>
                </a>
                <a href="mailto:xhanalexander@gmail.com" target="_blank" rel="noreferrer" title="E-mail">
                   <FontAwesomeIcon icon={faEnvelope} className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-
-               {/* =============== Alternate Account ===============  */}
-
-               {/* 
-               
                <a href="https://soundcloud.com/xhanalexander" target="_blank">
                   <FontAwesomeIcon icon={faSoundcloud} className="fa-lg mx-2 transition-all hover:text-green-400"/>
                </a>
