@@ -1,36 +1,21 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import Navbar from './Navbar'
+import Wave from './wave'
+import Footer from './Footer'
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
-  let header
-
-  if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
-  }
-
-  return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
-    </div>
-  )
+export default function Layout({ children }) {
+   return (
+      <div className="md:m-0 mx-10">
+         <Wave />
+         <div className="md:max-w-3xl max-w-lg m-auto">
+            <nav className="mt-32 mb-16">
+               <Navbar />
+               <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary idea.</p>
+               <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>
+            </nav>
+            { children }
+         </div>
+         <Footer />
+      </div>
+   )
 }
-
-export default Layout
