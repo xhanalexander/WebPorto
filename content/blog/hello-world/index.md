@@ -1,7 +1,8 @@
 ---
-title: Hello World
+title: First Portofolio 
 date: "2015-05-01T22:12:03.284Z"
-description: "first post"
+description: "This Gif i use p5js some javascript framework"
+thumbnail: ../../../src/images/2.jpg
 ---
 
 This is my first post on my new fake blog! How exciting!

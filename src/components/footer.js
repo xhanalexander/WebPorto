@@ -8,20 +8,40 @@ export default function footer() {
       <div>
          <footer className="flex flex-col my-14 p-0 m-auto">
             <div className="text-white text-center leading-8 text-xl mb-6">
-               <a href="https://www.facebook.com/xhan.alexander/" target="_blank" rel="noreferrer" title="Facebook">
-                  <FontAwesomeIcon icon={faFacebook} className="fa-lg mx-4 transition-all hover:text-green-400"/>
+               <a href="https://www.facebook.com/xhan.alexander/" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  title="Facebook">
+                  <FontAwesomeIcon icon={faFacebook} 
+                  className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://twitter.com/xhanalexander" target="_blank" rel="noreferrer" title="Twitter">
-                  <FontAwesomeIcon icon={faTwitter} className="fa-lg mx-4 transition-all hover:text-green-400"/>
+               <a href="https://twitter.com/xhanalexander" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  title="Twitter">
+                  <FontAwesomeIcon icon={faTwitter} 
+                  className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://github.com/xhanalexander" target="_blank" rel="noreferrer" title="Github">
-                  <FontAwesomeIcon icon={faGithub} className="fa-lg mx-4 transition-all hover:text-green-400"/>
+               <a href="https://github.com/xhanalexander" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  title="Github">
+                  <FontAwesomeIcon icon={faGithub} 
+                  className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://xhanalexander.tumblr.com/" target="_blank" rel="noreferrer" title="Tumblr">
-                  <FontAwesomeIcon icon={faTumblr} className="fa-lg mx-4 transition-all hover:text-green-400"/>
+               <a href="https://xhanalexander.tumblr.com/" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  title="Tumblr">
+                  <FontAwesomeIcon icon={faTumblr} 
+                  className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
-               <a href="https://www.instagram.com/xhanalexander" target="_blank" rel="noreferrer" title="Instagram">
-                  <FontAwesomeIcon icon={faInstagram} className="fa-lg mx-4 transition-all hover:text-green-400"/>
+               <a href="https://www.instagram.com/xhanalexander" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  title="Instagram">
+                  <FontAwesomeIcon icon={faInstagram} 
+                  className="fa-lg mx-4 transition-all hover:text-green-400"/>
                </a>
 
                {/* =============== Alternate Account ===============  */}
