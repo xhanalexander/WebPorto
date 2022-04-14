@@ -1,10 +1,9 @@
 ---
-title: Last Post 
-date: "2015-06-01T22:12:03.284Z"
+title: opening ceremony  
+date: "2022-02-24T13:31:03.284Z"
 description: "is this works???"
 thumbnail: ../../../src/images/1.jpg
 ---
-
 This is my first post on my new fake blog! How excitingsssssss!
 
 I'm sure I'll write a lot more interesting things in the future.

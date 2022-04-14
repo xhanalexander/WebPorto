@@ -28,7 +28,6 @@ const BlogPostTemplate = ({ data, location }) => {
                   <p className="text-white">{post.frontmatter.date}</p>
                </section>
             </header>
-            <br />
             <section
                className="text-white text-lg text-justify"
                dangerouslySetInnerHTML={{ __html: post.html }}

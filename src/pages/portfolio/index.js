@@ -36,7 +36,7 @@ export default function index({ data }) {
 // export page querry
 export const pageQuery = graphql`
 query PortfolioQuery {
-   allMarkdownRemark(sort: {order: ASC, fields: frontmatter___date}) {
+   allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
      nodes {
        fields {
          slug

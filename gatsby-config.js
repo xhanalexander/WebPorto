@@ -2,10 +2,10 @@ module.exports = {
    siteMetadata: {
       title: `Xhanalexander`,
       author: {
-         name: `...`,
-         summary: `who lives and works in San Francisco building useful things.`,
+         name: `Alexander Achmad Khan`,
+         summary: `An ongoing college students who lives in Jakarta and passion tech and art.`,
       },
-      description: `A Personal website art portfolio.`,
+      description: `A Personal website portfolio.`,
       siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
       social: {
          twitter: `xhanalexander`,
@@ -115,14 +115,14 @@ module.exports = {
          resolve: `gatsby-plugin-manifest`,
          options: {
             name: `xhanalexander`,
-            short_name: `GatsbyJS`,
+            short_name: `xhanalexander`,
             start_url: `/`,
             background_color: `#121212`,
             // This will impact how browsers show your PWA/website
             // https://css-tricks.com/meta-theme-color-and-trickery/
             theme_color: `#34d399`,
             display: `minimal-ui`,
-            icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+            icon: `src/images/X.png`, // This path is relative to the root of the site.
          },
       },
       `gatsby-plugin-react-helmet`,
