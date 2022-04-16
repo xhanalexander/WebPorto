@@ -3,7 +3,7 @@ module.exports = {
       title: `Xhanalexander`,
       author: {
          name: `Alexander Achmad Khan`,
-         summary: `An ongoing college students who lives in Jakarta and passion tech and art.`,
+         summary: `An ongoing college students who lives in Jakarta and like to studies in tech and art.`,
       },
       description: `A Personal website portfolio.`,
       siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -35,7 +35,7 @@ module.exports = {
                {
                   resolve: `gatsby-remark-images`,
                   options: {
-                     maxWidth: 630,
+                     maxWidth: 1920,
                   },
                },
                {

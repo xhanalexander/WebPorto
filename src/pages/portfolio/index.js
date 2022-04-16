@@ -13,17 +13,17 @@ export default function index({ data }) {
             <Seo title='Portfolio' />
             <div>
                {project.map(project => (
-                  <Link to={project.fields.slug}>
-                     <div className='flex flex-col'>
+                  <Link to={project.fields.slug} className="drop-shadow-lg">
+                     <div className='flex flex-col my-7'>
                         <GatsbyImage 
                            image={getImage(project.frontmatter.thumbnail)} 
                            alt={project.frontmatter.title}
                            title={project.frontmatter.title}
                            className='rounded-lg my-2 hover:'
                            />
-                        <p className='text-white text-2xl font-semibold'>{project.frontmatter.title}</p>
-                        <p className='text-gray-400 text-lg'>{project.frontmatter.description}</p>
-                        <br /><br />
+                        <p className='text-white text-3xl mt-4 font-semibold text-center'>{project.frontmatter.title}</p>
+                        <p className='text-gray-400 text-lg mt-4'>{project.frontmatter.description}</p>
+                        <br />
                      </div>
                   </Link>
                ))}

@@ -21,7 +21,7 @@ export default function Navbar() {
                      </nav>
                   </nav>:null
                }
-               <svg className="h-9 w-9 fill-current text-white z-20 fixed" viewBox="0 0 24 24" stroke="currentColor">
+               <svg className="h-9 w-9 fill-current text-white z-20 fixed md:right-9" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                </svg>
             </button>

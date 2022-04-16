@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 export default function Layout({ children }) {
    return (
-      <div className="md:m-0 mx-10">
+      <div className="md:mx-8 mx-10">
          <Wave />
          <div className="md:max-w-3xl max-w-lg m-auto">
             <nav className="mt-32 mb-16">

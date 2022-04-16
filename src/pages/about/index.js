@@ -27,7 +27,7 @@ export default function index({ data }) {
                   Some freelance and ongoing college students major in computer science, currently live in
                   <a href='https://en.wikipedia.org/wiki/Jakarta'> Jakarta</a>, passionate at Digital Design, UI Design, and Motion Graphic.
                   Since junior highschool I'm interested digital sketch so I often take part in poster competition. Currently this period
-                  I'm freelance on wedding videography to help of my friends works. I spend time reading and create some visual through code with
+                  I'm freelance on wedding videography to help of my friends works. I spend time period reading and create some visual through code with
                   <a href="https://p5js.org/" target="_blank" rel="noreferrer" className="text-green-400 hover:text-white" title="Info">&nbsp;p5Js</a> a javascript framework and
                   <a href='https://openframeworks.cc/about/' target="_blank" rel="noreferrer" className="text-green-400  hover:text-white" title="Info"> Openframeworks&nbsp;</a>
                   a C++ for creative coding.

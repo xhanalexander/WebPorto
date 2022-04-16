@@ -21,7 +21,7 @@ const BlogPostTemplate = ({ data, location }) => {
             itemScope
             itemType="http://schema.org/Article"
          >
-            <header className="text-white my-6">
+            <header className="text-white mt-6 mb-8">
                <h1 itemProp="headline" className="text-white text-center text-4xl font-semibold">{post.frontmatter.title}</h1>
                <section className="flex flex-row justify-center">
                   <FontAwesomeIcon icon={faCalendarAlt} className="fa-2xl my-auto mr-2" />
@@ -29,7 +29,7 @@ const BlogPostTemplate = ({ data, location }) => {
                </section>
             </header>
             <section
-               className="text-white text-lg text-justify"
+               className="text-white text-justify text-xl"
                dangerouslySetInnerHTML={{ __html: post.html }}
                itemProp="articleBody"
             />

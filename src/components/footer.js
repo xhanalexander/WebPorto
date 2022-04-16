@@ -70,7 +70,7 @@ export default function footer() {
                */}
             </div>
             <div className='text-sm text-center text-gray-50 text-opacity-60 leading-5'>
-               © 2022 Alexander Achmad Khan. All Rights Reserved.
+               © {new Date().getFullYear()} Alexander Achmad Khan. All Rights Reserved.
             </div>
 
          </footer>

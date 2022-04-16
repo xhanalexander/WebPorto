@@ -2,7 +2,7 @@
 title: Second Project 
 date: "2015-05-06T23:46:37.121Z"
 description: "This project i create for testing"
-thumbnail: ../../../src/images/1.jpg
+thumbnail: ../../../src/images/2.jpg
 ---
 
 ## Wow! I love blogging so much already.
