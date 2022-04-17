@@ -1,14 +1,26 @@
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 export default function Navbar() {
-   const name = "Xhanalexander";
+
+   const data = useStaticQuery(graphql`
+      query NickName {
+         site {
+            siteMetadata {
+               title
+            }
+         }
+      }
+  `)
+
+   const { title } = data.site.siteMetadata
    const [show, setstate] = useState(false)
 
    return (
       <div>
          <header className="flex justify-between">
-            <Link to="/" className="md:text-3xl flex text-2xl text-white md:text-left text-center font-semibold font-title" title="Home" activeClassName> {name}</Link>
+            <Link to="/" className="md:text-3xl flex text-2xl text-white md:text-left text-center font-semibold font-title" title="Home"> { title } </Link>
 
             <button className="md:hidden transition-all relative" type="button" onClick={()=>setstate(!show)}>
                {
@@ -31,10 +43,7 @@ export default function Navbar() {
                <Link to="../portfolio" className="md:text-lg text-xl text-white font-title pr-9 uppercase text-opacity-100" title="Portfolio" activeClassName='text-green-400 text-opacity-100'>Portfolio</Link>
                <Link to="../about" className="md:text-lg text-xl text-white font-title uppercase text-opacity-100" title="About" activeClassName='text-green-400 text-opacity-100'>About</Link>
             </div>
-
          </header>
-
-
       </div>
    )
 }

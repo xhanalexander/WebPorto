@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Wave from './wave'
-import Footer from './Footer'
+import Footer from './footer'
 
 export default function Layout({ children }) {
    return (
