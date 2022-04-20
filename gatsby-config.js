@@ -1,5 +1,5 @@
 module.exports = {
-   pathPrefix: "/WebPorto/public",
+   pathPrefix: "/WebPorto",
    siteMetadata: {
       title: `Xhanalexander`,
       author: {
@@ -7,7 +7,7 @@ module.exports = {
          summary: `An ongoing college students who lives in Jakarta and like to studies in tech and art.`,
       },
       description: `A Personal website portfolio.`,
-      siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+      siteUrl: `https://xhanalexander.github.io/WebPorto/`,
       social: {
          twitter: `xhanalexander`,
       },
