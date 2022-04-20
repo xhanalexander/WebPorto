@@ -1,5 +1,4 @@
 module.exports = {
-   pathPrefix: "/WebPorto",
    siteMetadata: {
       title: `Xhanalexander`,
       author: {
@@ -18,7 +17,7 @@ module.exports = {
          options: {
            // You can add multiple tracking ids and a pageview event will be fired for all of them.
            trackingIds: [
-             "G-2EG88BGSE4", // Google Analytics / GA
+             "GA-TRACKING_ID", // Google Analytics / GA
            ],
            // This object is used for configuration specific to this plugin
            pluginConfig: {
