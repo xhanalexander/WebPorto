@@ -12,7 +12,21 @@ module.exports = {
       },
    },
    plugins: [
-      'gatsby-plugin-postcss',
+      {
+         resolve: `gatsby-plugin-google-gtag`,
+         options: {
+           // You can add multiple tracking ids and a pageview event will be fired for all of them.
+           trackingIds: [
+             "G-2EG88BGSE4", // Google Analytics / GA
+           ],
+           // This object is used for configuration specific to this plugin
+           pluginConfig: {
+             // Puts tracking script in the head instead of the body
+             head: true,
+           },
+         },
+       },
+      `gatsby-plugin-postcss`,
       `gatsby-plugin-image`,
       {
          resolve: `gatsby-source-filesystem`,
@@ -35,7 +49,7 @@ module.exports = {
                {
                   resolve: `gatsby-remark-images`,
                   options: {
-                     maxWidth: 1920,
+                     maxWidth: 1080,
                   },
                },
                {
@@ -122,7 +136,7 @@ module.exports = {
             // https://css-tricks.com/meta-theme-color-and-trickery/
             theme_color: `#34d399`,
             display: `minimal-ui`,
-            icon: `src/images/X.png`, // This path is relative to the root of the site.
+            icon: `src/images/icon.png`, // This path is relative to the root of the site.
          },
       },
       `gatsby-plugin-react-helmet`,

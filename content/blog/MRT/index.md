@@ -5,21 +5,21 @@ description: "My last work on january during end semester, layouting the banner 
 thumbnail: ../../../src/images/mrt.png
 ---
 
-![](./MRT3.png)
-<h1 class="text-white text-2xl font-semibold mt-10 mb-4">Ini judul Pertama</h1>
+![Penamaan dam Peluncuran Boring Tunnel](./MRT3.png)
+<h1 class="text-white text-2xl font-semibold mt-10 mb-4">Events</h1>
 
 <p class="text-white mt-4 mb-8 border-l-4 pl-6 border-green-500">
-   Pada acara tersebut dilaksanakan pada hari kamis pagi hingga sore, dengan dihadiri Presiden Indonesia, Gubernur DKI Jakarta dan PT. Direktur MRT,
+   Pada acara tersebut dilaksanakan pada hari kamis pagi dengan dihadiri Presiden Indonesia, Gubernur DKI Jakarta dan Direktur MRT, dalam acara tersebut mempresentasikan Mesin Bor (Boring Tunnel) dengan menampilkan visual para pekerja yang melakukan perpanjangan jalur MRT fase 2A.
 </p>
 
-![](./MRT.png)
+![Penamaan dam Peluncuran Boring Tunnel](./MRT.png)
 <h1 class="mt-8 mb-4"></h1>
 
-![](./MRT2.png)
+![Layout Banner Acara LED](./MRT2.png)
 <h1 class="mt-8 mb-4"></h1>
 
-![Layout Banner Acara](./MRT4.png)
-<h1 class="text-white text-2xl font-semibold mt-8 mb-4 tracking-wide">Video Peresmian</h1>
+![Layout Banner Acara LED](./MRT4.png)
+<h1 class="text-white text-2xl font-semibold mt-8 mb-4 tracking-wide">Videos</h1>
 
 <p class="text-white italic mt-4 mb-8 border-l-4 pl-6 border-green-500 ">
 Untuk melihat sepenuhnya dapat bisa dilihat diklik video dibawah ini.</p>

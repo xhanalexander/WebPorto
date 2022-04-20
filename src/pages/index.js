@@ -7,7 +7,9 @@ export default function home() {
    return (
       <Layout>
          <div className="md:m-0 mx-10">
-            <Seo/>
+            <Seo 
+            title="Home"
+            />
          </div>
          <section className="flex md:flex-row flex-col justify-between">
             <article className="left text-white md:w-2/5 w-none">
