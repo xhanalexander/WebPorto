@@ -1,4 +1,5 @@
 module.exports = {
+   pathPrefix: "/WebPorto/public",
    siteMetadata: {
       title: `Xhanalexander`,
       author: {
