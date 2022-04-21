@@ -7,17 +7,17 @@ import Seo from '../../components/seo'
 
 export default function index({ data }) {
    const myPic = getImage(data.file.childImageSharp)
-   
+
    return (
       <Layout>
          <Seo title="About" />
          <div className="pattern-dots-lg transform translate-y-8 translate-x-8">
-            <GatsbyImage 
-               image={myPic} 
-               alt="Me chilling in the beach" 
+            <GatsbyImage
+               image={myPic}
+               alt="Me chilling in the beach"
                className='transform -translate-y-8 -translate-x-8 rounded-lg'
                title="Wassup"
-               />
+            />
          </div>
 
          <section className="flex flex-col justify-between mt-20">
@@ -59,9 +59,9 @@ export default function index({ data }) {
 export const pageQuery = graphql`
    query MyQuery {
       file(relativePath: {eq: "me.jpg"}) {
-      childImageSharp {
-         gatsbyImageData(placeholder: DOMINANT_COLOR)
-      }
+         childImageSharp {
+            gatsbyImageData(placeholder: DOMINANT_COLOR)
+         }
       }
    } 
 `
