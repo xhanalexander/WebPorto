@@ -32,14 +32,6 @@ export default function index({ data }) {
                   <a href='https://openframeworks.cc/about/' target="_blank" rel="noreferrer" className="text-green-400  hover:text-white" title="Info"> Openframeworks&nbsp;</a>
                   a C++ for creative coding.
                </p>
-               <br />
-               <p className="block md:text-xl text-base text-justify leading-6">
-                  Past project me and my brother worked on Music Videos artist
-                  <a href="https://youtu.be/i0VDVqzVVEQ" target="_blank" className="text-green-400 hover:text-white" title="Youtube Link" rel="noreferrer">&nbsp;Bangkutaman</a>.
-                  Then I worked digital advertising for SevenFest SMAN 7 Jakarta festival (Senior Highschool 7 Jakarta) feature graffiti Artist. Also the recent work from MRT
-                  <a href="https://www.jaklingkoindonesia.co.id/en/about-us" target="_blank" className="text-green-400 hover:text-white" title="Info" rel="noreferrer">&nbsp;(Jak Lingko)</a>,
-                  featured Jakarta Mayor, and Intiland Industries create <a href="https://youtu.be/P7JJ1ZDumFM" target="_blank" rel="noreferrer" className="text-green-400 hover:text-white" title='Youtube Link'>Digital Banner</a>.
-               </p>
             </article>
          </section>
 
