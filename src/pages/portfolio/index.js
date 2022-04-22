@@ -9,8 +9,7 @@ export default function index({ data }) {
 
    return (
       <Layout>
-         <div>
-            <Seo title='Portfolio' />
+         <Seo title='Portfolio' />
             <div>
                {project.map(project => (
                   <Link to={project.fields.slug} className="drop-shadow-lg">
@@ -28,7 +27,6 @@ export default function index({ data }) {
                   </Link>
                ))}
             </div>
-         </div>
       </Layout>
    )
 }
