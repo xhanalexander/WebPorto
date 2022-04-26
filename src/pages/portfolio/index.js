@@ -12,7 +12,7 @@ export default function index({ data }) {
          <Seo title='Portfolio' />
             <div>
                {project.map(project => (
-                  <Link to={project.fields.slug} className="drop-shadow-lg">
+                  <Link to={project.fields.slug}>
                      <div className='flex flex-col my-7'>
                         <GatsbyImage 
                            image={getImage(project.frontmatter.thumbnail)} 

@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useStaticQuery, graphql } from "gatsby"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
-import { faTwitter, faTwitch, faFacebook, faDeviantart, faGithub, faDiscord, faTumblr, faSoundcloud, faInstagram, faCodepen } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter, faFacebook, faGithub, faTumblr, faInstagram, } from "@fortawesome/free-brands-svg-icons"
 
 export default function Footer() {
 
