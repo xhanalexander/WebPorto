@@ -6,6 +6,9 @@ thumbnail: ../../../src/images/bangkutaman.jpg
 ---
 
 ![Boy Starring at the ocean with red skies](./IMG_1.png)
+
+<h1 class="text-white text-2xl font-semibold mt-8 mb-4 tracking-wide">Summaries</h1>
+
 <p class="text-white mt-4 mb-8">
    Bangkutaman is a group music band from jogja, with consisting genre of Folk/Indie, The new single entitled "Dinamika" was first played specifically through the official pop site today. The single released through the Palm House Records label was a sign of their resurrection after a long time of silence, since last release the mini album entitled "Rilateks" in 2016. The five-minute duration presented by the single "Dinamika" will bring the listeners into the nuances and the world of the psychedelia jazz, which of course this is a new exploration for those who have never played this type of music from 1999.
 </p>
