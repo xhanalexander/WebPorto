@@ -21,7 +21,12 @@ export default function Footer() {
    const { name } = data.site.siteMetadata.author
 
    return (
-      <footer className="flex flex-col my-14 p-0 m-auto">
+      <footer 
+         className="flex flex-col my-14 p-0 m-auto"
+         data-sal="slide-up"
+         data-sal-delay="300"
+         data-sal-easing="ease"
+      >
             <nav className="text-white text-center leading-8 text-xl mb-6">
                <a href="https://www.facebook.com/xhan.alexander/"
                   target="_blank"
