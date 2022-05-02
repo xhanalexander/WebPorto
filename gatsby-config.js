@@ -1,12 +1,12 @@
 module.exports = {
    siteMetadata: {
-      title: `Xhanalexander`,
+      title: `xhanalexander`,
       author: {
          name: `Alexander Achmad Khan`,
-         summary: `An ongoing college students who lives in Jakarta and like to studies in tech and art.`,
+         summary: `I am Alexander Achmad Khan an ongoing college students who lives in Jakarta and like to studies in tech and art.`,
       },
       description: `A Personal website portfolio.`,
-      siteUrl: `https://xhanalexander.github.io/WebPorto/`,
+      siteUrl: `https://xhanalexander.netlify.app/`,
       social: {
          twitter: `xhanalexander`,
       },

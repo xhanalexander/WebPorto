@@ -21,7 +21,7 @@ export default function Navbar() {
       <header 
          className="flex justify-between"
          data-sal="slide-up"
-         data-sal-duration="500"
+         data-sal-duration="250"
          data-sal-easing="ease"
       >
          <Link to="/" className="md:text-3xl text-2xl text-white md:text-left text-center font-semibold font-title" title="Home"> {title} </Link>

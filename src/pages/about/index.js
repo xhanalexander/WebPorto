@@ -11,12 +11,7 @@ export default function index({ data }) {
    return (
       <Layout>
          <Seo title="About" />
-         <div 
-            className="pattern-dots-lg transform translate-y-8 translate-x-8"
-            data-sal="slide-up"
-            data-sal-duration="750"
-            data-sal-easing="ease"   
-         >
+         <div className="pattern-dots-lg transform translate-y-8 translate-x-8">
             <GatsbyImage
                image={myPic}
                alt="Me chilling in the beach"
@@ -29,7 +24,7 @@ export default function index({ data }) {
             className="flex flex-col justify-between mt-20"
             data-sal="slide-up"
             data-sal-duration="500"
-            data-sal-easing="ease" 
+            data-sal-easing="ease"
          >
             <article className="content-about text-white pattern-checks-sm bg-blue white">
                <h1 className="md:text-4xl text-2xl text-white font-semibold pb-5 leading-10 flex flex-row">Hi my name is<span className="text-green-400 space-x-1">&nbsp;Alexander</span>.</h1>
@@ -45,7 +40,12 @@ export default function index({ data }) {
             </article>
          </section>
 
-         <section className="resume flex justify-center mt-10">
+         <section 
+            className="resume flex justify-center mt-10"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-easing="ease"
+         >
             <a href={myResume}>
                <button
                   className="flex w-48 justify-center text-xl transition-all ease-out text-green-400 bg-transparent hover:bg-green-400 font-semibold hover:text-white py-2 px-4 border border-green-400 hover:border-transparent rounded-full m-auto tracking-wider"
