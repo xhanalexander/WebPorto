@@ -11,13 +11,13 @@ export default function home() {
             title="Home"
             />
          </div>
-         <section 
-            className="flex md:flex-row flex-col justify-between"
-            data-sal="slide-up"
-            data-sal-duration="700"
-            data-sal-easing="easeOutCubic"
-         >
-            <article className="left text-white md:w-2/5 w-none">
+         <section  className="flex md:flex-row flex-col justify-between">
+            <article 
+               className="left text-white md:w-2/5 w-none"
+               data-sal="slide-up"
+               data-sal-duration="700"
+               data-sal-easing="ease"
+            >
                <p className="block text-xl text-justify max-w-prose">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Assumenda impedit officia aliquam nulla voluptatum, sint,
@@ -33,7 +33,12 @@ export default function home() {
                </p>
                <br />
             </article>
-            <article className="right block text-white md:w-2/5 w-none">
+            <article 
+               className="right block text-white md:w-2/5 w-none"
+               data-sal="slide-up"
+               data-sal-duration="800"
+               data-sal-easing="ease"
+            >
                <p className="text-xl block text-justify max-w-prose">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Assumenda impedit officia aliquam nulla voluptatum, sint,
