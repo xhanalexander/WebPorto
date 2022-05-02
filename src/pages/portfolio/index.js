@@ -13,7 +13,12 @@ export default function index({ data }) {
             <div>
                {project.map(project => (
                   <Link to={project.fields.slug}>
-                     <div className='flex flex-col my-7'>
+                     <div 
+                        className='flex flex-col my-7'
+                        data-sal="slide-up"
+                        data-sal-duration="750"
+                        data-sal-easing="ease"
+                     >
                         <GatsbyImage 
                            image={getImage(project.frontmatter.thumbnail)} 
                            alt={project.frontmatter.title}

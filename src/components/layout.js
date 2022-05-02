@@ -8,7 +8,12 @@ export default function Layout({ children }) {
       <article className="lg:mx-8 mx-10">
          <Wave />
          <main className="lg:max-w-3xl max-w-lg m-auto">
-            <nav className="mt-32 mb-16">
+            <nav 
+               className="mt-32 mb-16"
+               data-sal="slide-up"
+               data-sal-duration="700"
+               data-sal-easing="ease"
+            >
                <Navbar />
                <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary ideas.</p>
                <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>

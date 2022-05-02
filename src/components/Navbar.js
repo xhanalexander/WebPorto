@@ -18,7 +18,12 @@ export default function Navbar() {
    const [show, setstate] = useState(false)
 
    return (
-      <header className="flex justify-between">
+      <header 
+         className="flex justify-between"
+         data-sal="slide-up"
+         data-sal-duration="500"
+         data-sal-easing="ease"
+      >
          <Link to="/" className="md:text-3xl text-2xl text-white md:text-left text-center font-semibold font-title" title="Home"> {title} </Link>
 
          <button className="lg:hidden" type="button" onClick={() => setstate(!show)}>
