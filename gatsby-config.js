@@ -16,7 +16,7 @@ module.exports = {
          resolve: `gatsby-plugin-google-gtag`,
          options: {
             trackingIds: [
-               "G-8WKEYGRFBS", // Google Analytics / GA
+               "G-LXQ5CQ9CFT", // Google Analytics / GA
             ],
             // This object is used for configuration specific to this plugin
             pluginConfig: {
