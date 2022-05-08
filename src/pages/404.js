@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import imagegif from "../images/404.gif"
+// import imagegif from "../images/404.gif"
 
 const NotFoundPage = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata.title
