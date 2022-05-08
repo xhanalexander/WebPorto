@@ -7,6 +7,7 @@ import Seo from '../../components/seo'
 
 export default function index({ data }) {
    const myPic = getImage(data.file.childImageSharp)
+   const names = data.site.siteMetadata.author.name
 
    return (
       <Layout>
@@ -27,7 +28,7 @@ export default function index({ data }) {
             data-sal-easing="ease"
          >
             <article className="content-about text-white pattern-checks-sm bg-blue white">
-               <h1 className="md:text-4xl text-2xl text-white font-semibold pb-5 leading-10 flex flex-row">Hi my name is<span className="text-green-400 space-x-1">&nbsp;Alexander</span>.</h1>
+               <h1 className="md:text-4xl text-2xl text-white font-semibold pb-5 leading-10 flex flex-row">Hi my name is<span className="text-green-400 space-x-1">&nbsp;{names}</span>.</h1>
                <p className="block md:text-xl text-base text-justify leading-6">
                   Some freelance and ongoing college students major in computer science, currently live in
                   <a href='https://en.wikipedia.org/wiki/Jakarta'> Jakarta</a>, passionate at Digital Design, UI Design, and Motion Graphic.
@@ -63,6 +64,13 @@ export const pageQuery = graphql`
       file(relativePath: {eq: "me.jpg"}) {
          childImageSharp {
             gatsbyImageData(placeholder: DOMINANT_COLOR)
+         }
+      }
+      site {
+         siteMetadata {
+            author {
+               name
+            }
          }
       }
    } 
