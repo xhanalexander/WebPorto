@@ -9,6 +9,7 @@ export default function home() {
          <div className="md:m-0 mx-10">
             <Seo 
             title="Home"
+            description="Homepage of xhanalexander.com"
             />
          </div>
          <section  className="flex md:flex-row flex-col justify-between">
@@ -45,6 +46,14 @@ export default function home() {
                   tempora culpa voluptatem ipsa nemo aliquid illo amet unde
                   recusandae tempore magnam itaque dicta. Quos?
                </p>
+               <br />
+               <p className="block text-xl text-justify max-w-prose">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Assumenda impedit officia aliquam nulla voluptatum, sint,
+                  tempora culpa voluptatem ipsa nemo aliquid illo amet unde
+                  recusandae tempore magnam itaque dicta. Quos?
+               </p>
+               <br />
             </article>
          </section>
       </Layout>

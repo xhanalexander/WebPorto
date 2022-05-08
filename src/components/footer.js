@@ -7,66 +7,64 @@ import { faTwitter, faFacebook, faGithub, faTumblr, faInstagram, } from "@fortaw
 export default function Footer() {
 
    const data = useStaticQuery(graphql`
-      query Myname {
-         site {
-            siteMetadata {
-               author {
-                  name
-               }
-            }
+   query Myname {
+      site {
+         siteMetadata {
+            title
          }
       }
+   }
   `)
 
-   const { name } = data.site.siteMetadata.author
+  const NickName = data.site.siteMetadata.title
 
    return (
-      <footer 
+      <footer
          className="flex flex-col my-14 p-0 m-auto"
          data-sal="slide-up"
          data-sal-delay="300"
          data-sal-easing="ease"
       >
-            <nav className="text-white text-center leading-8 text-xl mb-6">
-               <a href="https://www.facebook.com/xhan.alexander/"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Facebook">
-                  <FontAwesomeIcon icon={faFacebook}
-                     className="fa-lg mx-4 transition-all hover:text-green-400" />
-               </a>
-               <a href="https://twitter.com/xhanalexander"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Twitter">
-                  <FontAwesomeIcon icon={faTwitter}
-                     className="fa-lg mx-4 transition-all hover:text-green-400" />
-               </a>
-               <a href="https://github.com/xhanalexander"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Github">
-                  <FontAwesomeIcon icon={faGithub}
-                     className="fa-lg mx-4 transition-all hover:text-green-400" />
-               </a>
-               <a href="https://xhanalexander.tumblr.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Tumblr">
-                  <FontAwesomeIcon icon={faTumblr}
-                     className="fa-lg mx-4 transition-all hover:text-green-400" />
-               </a>
-               <a href="https://www.instagram.com/xhanalexander"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Instagram">
-                  <FontAwesomeIcon icon={faInstagram}
-                     className="fa-lg mx-4 transition-all hover:text-green-400" />
-               </a>
+         <nav className="text-white text-center leading-8 text-xl mb-6">
+            <a href="https://www.facebook.com/xhan.alexander/"
+               target="_blank"
+               rel="noreferrer"
+               title="Facebook">
+               <FontAwesomeIcon icon={faFacebook}
+                  className="fa-lg mx-4 transition-all hover:text-green-400" />
+            </a>
+            <a href="https://twitter.com/xhanalexander"
+               target="_blank"
+               rel="noreferrer"
+               title="Twitter">
+               <FontAwesomeIcon icon={faTwitter}
+                  className="fa-lg mx-4 transition-all hover:text-green-400" />
+            </a>
+            <a href="https://github.com/xhanalexander"
+               target="_blank"
+               rel="noreferrer"
+               title="Github">
+               <FontAwesomeIcon icon={faGithub}
+                  className="fa-lg mx-4 transition-all hover:text-green-400" />
+            </a>
+            <a href="https://xhanalexander.tumblr.com/"
+               target="_blank"
+               rel="noreferrer"
+               title="Tumblr">
+               <FontAwesomeIcon icon={faTumblr}
+                  className="fa-lg mx-4 transition-all hover:text-green-400" />
+            </a>
+            <a href="https://www.instagram.com/xhanalexander"
+               target="_blank"
+               rel="noreferrer"
+               title="Instagram">
+               <FontAwesomeIcon icon={faInstagram}
+                  className="fa-lg mx-4 transition-all hover:text-green-400" />
+            </a>
 
-               {/* =============== Alternate Account ===============  */}
+            {/* =============== Alternate Account ===============  */}
 
-               {/* 
+            {/* 
                
                <a href="https://codepen.io/Xhanalexander" target="_blank" rel="noreferrer" title="Codepen">
                   <FontAwesomeIcon icon={faCodepen} className="fa-lg mx-2 transition-all hover:text-green-400"/>
@@ -88,11 +86,11 @@ export default function Footer() {
                </a>
 
                */}
-            </nav>
-            <footer className='text-sm text-center text-gray-50 text-opacity-60 leading-5'>
-               © {new Date().getFullYear()} { name }. All Rights Reserved.
-            </footer>
+         </nav>
+         <footer className='text-sm text-center text-gray-50 text-opacity-60 leading-5 capitalize'>
+            © {new Date().getFullYear()} {NickName}. all rights reserved.
          </footer>
+      </footer>
    )
 }
 
