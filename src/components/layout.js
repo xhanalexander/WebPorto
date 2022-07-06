@@ -15,7 +15,7 @@ export default function Layout({ children }) {
                data-sal-easing="ease"
             >
                <Navbar />
-               <p className="text-base text-green-400 font-sm font-title leading-loose">Ordinary boy with full imaginary ideas.</p>
+               <p className="text-base text-green-400 font-sm font-title leading-loose">The Dreamer, Visioner and Creator.</p>
                <p className="text-base text-white font-sm font-title">Motion & Graphic Design.</p>
             </nav>
             { children }

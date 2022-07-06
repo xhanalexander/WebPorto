@@ -11,7 +11,12 @@ export default function index({ data }) {
 
    return (
       <Layout>
-         <Seo title="About" />
+         <Seo title="About" 
+            description="Alexander Achmad Khan as known as xhanalexander some 
+            freelance and ongoing college students major in computer science, currently live in Jakarta, Indonesia.
+            passionate at Digital Design, UI Design, and Motion Graphic. 
+            "
+         />
          <div className="pattern-dots-lg transform translate-y-8 translate-x-8">
             <GatsbyImage
                image={myPic}
@@ -50,6 +55,9 @@ export default function index({ data }) {
             <a href={myResume}>
                <button
                   className="flex w-48 justify-center text-xl transition-all ease-out text-green-400 bg-transparent hover:bg-green-400 font-semibold hover:text-white py-2 px-4 border border-green-400 hover:border-transparent rounded-full m-auto tracking-wider"
+                  data-sal="slide-up"
+                  data-sal-duration="500"
+                  data-sal-easing="ease"
                   title="CV">
                   RESUME PDF
                </button>
