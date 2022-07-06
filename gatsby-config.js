@@ -73,6 +73,13 @@ module.exports = {
                      wrapperStyle: `margin-bottom: 1.0725rem`,
                   },
                },
+               {
+                  resolve: 'gatsby-remark-instagram-embed',
+                  options: {
+                    width: 720,
+                    height: 1080,
+                  },
+                },
                `gatsby-remark-prismjs`,
                `gatsby-remark-copy-linked-files`,
                `gatsby-remark-smartypants`,

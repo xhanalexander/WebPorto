@@ -9,7 +9,9 @@ export default function index({ data }) {
 
    return (
       <Layout>
-         <Seo title='Portfolio' />
+         <Seo title='Portfolio' 
+         description='All of xhanalexander portofolio'
+         />
             <div>
                {project.map(project => (
                   <Link to={project.fields.slug}>
